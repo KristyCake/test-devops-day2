@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-    git branch: 'main', url: 'https://github.com/KristyCake/web-simple.git'
+    git branch: 'main', url: 'https://github.com/KristyCake/test-devops-day2.git'
   }
         }
         stage('Build Docker Image') {
